@@ -1,0 +1,29 @@
+# Inventaris Frontend
+
+######## Untuk backend checkout this repo #########
+- Backend :point_right:  https://github.com/toriqvoxel/inventaris
+
+
+######## Installasi ##########
+
+Untuk panduan installasi dari git, silahkan cek README.md
+
+1. Untuk menjalankan Inventaris Frontend perlu Node.js v10. And bisa mendownloadnya di sini https://nodejs.org/
+
+2. Masuk ke terminal dan arahkan ke folder aplikasi berada.
+3. Ketikkan perintah berikut untuk melakukan installasi
+
+npm install
+npm install vue-cli -g
+
+4. Buka file /src/main.js . 
+5. Cari baris berikut axios.defaults.baseURL = "http://localhost:1339/"
+6. Ganti http://localhost:1339/ dengan alamat backend Anda.
+7. Simpan
+8. Untuk menjalankan aplikasi, ketikkan perintah berikut pada terminal
+
+npm run serve
+
+9. Untuk melakukan compile untuk deploy ke server, ketikkan perintah berikut pada terminal dan lihat hasilnya pada folder dist
+
+npm run build
